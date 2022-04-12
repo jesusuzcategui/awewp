@@ -2,7 +2,13 @@
     "name": "your-vendor/awe-theme",
     "type": "wordpress-theme",
     "require": {
-        "timber/timber": "*"
+        "timber/timber": "*",
+        "symfony/http-foundation": "^5.4"
     },
-    "license": "MIT"
+    "license": "MIT",
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
 }

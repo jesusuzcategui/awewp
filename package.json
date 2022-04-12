@@ -18,5 +18,10 @@
     "jquery": "^3.5.0",
     "laravel-mix": "^2.1.11",
     "popover.js": "^0.2.34"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "axios": "^0.26.1",
+    "popper.js": "^1.16.1"
   }
 }

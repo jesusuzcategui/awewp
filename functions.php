@@ -2,6 +2,10 @@
 
 require_once __DIR__ . '/vendor/autoload.php';
 
+require_once 'shortcodes/load.php';
+require_once 'rest/load.php';
+require_once 'utils.php';
+
 class mySite extends Timber\Site {
 	public function __construct() {
 		add_theme_support( 'post-thumbnails' );
